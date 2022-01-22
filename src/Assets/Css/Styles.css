@@ -7,7 +7,6 @@
 
 body {
     background-color: white;
-    padding: 100px 200px;
 }
 
 .personal-details,
@@ -23,6 +22,9 @@ body {
     margin-bottom: 40px;
     padding: 20px;
     border-radius: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table {
@@ -60,6 +62,7 @@ a {
 
 /*Title and Image*/
 .titles {
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -78,7 +81,6 @@ img {
 }
 
 /*Personal Details*/
-
 
 
 /*Profile*/
@@ -111,8 +113,23 @@ img {
 
 
 /*Navigations*/
+.navigations {
+    text-align: center;
+    margin-bottom: 100px;
+}
 
+.navigations a {
+    background-color: gray;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 120%;
+    font-weight: 600;
+}
 
+.navigations a:hover {
+    background-color: black;
+}
 
 
 @media (max-width: 1050px){
