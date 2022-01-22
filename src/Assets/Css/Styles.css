@@ -1,19 +1,119 @@
+/*General Styles*/
 * {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Normal', Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     background-color: white;
+    padding: 100px 200px;
 }
 
-/*MENU HEADER*/
+.personal-details,
+.profile,
+.education,
+.employment,
+.skills,
+.languages,
+.hobbies,
+.certificates
+{
+    border: 2px solid gray;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.title
+{
+    font-weight: 900;
+    font-size: 150%;
+    background-color: gray;
+    color: white;
+    padding: 7px 18px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 20px 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.degree, 
+.role {
+    font-weight: 700;
+}
+
+.company,
+.school {
+    color: gray;
+}
+
+/*Title and Image*/
+.titles {
+    text-align: center;
+}
+
+.titles h1 {
+    padding-bottom: 10px;
+}
+
+.titles h3 {
+    padding-bottom: 45px;
+    font-weight: 200;
+}
+
+img {
+    width: 150px;
+    padding: 20px 0 20px 0;
+}
+
+/*Personal Details*/
 
 
-/*GALLERY*/
+
+/*Profile*/
+.content-text {
+    line-height: 22px;
+}
+
+/*Education*/
+.education ul {
+    line-height: 22px;
+}
+
+/*Employment*/
+.employment ul {
+    line-height: 22px;
+}
+
+/*Skills*/
 
 
-/*FINAL-PART*/
+/*Languages*/
+
+
+/*Hobbies*/
+.hobbies ul{
+    line-height: 22px;
+}
+
+/*Certificates*/
+
+
+/*Navigations*/
+
+
+
 
 @media (max-width: 1050px){
 
